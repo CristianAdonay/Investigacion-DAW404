@@ -1,0 +1,132 @@
+h1 {
+    text-align: center;
+  }
+  .container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+  .container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 200px;
+    height: 200px;
+}
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+#test {
+    width: 350px;
+    height:200px;
+    margin: 0px auto;
+    border: 1px solid red;
+  }
+
+#Descripcion{
+    text-align: center;
+
+  }
+  p.centrado {
+    text-align: center;
+  }
+
+header{
+    text-align: center;
+    margin: 5px 25px;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+    font-family: 'The Blacklist', cursive;
+    background-color: #F7FF00;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f48b29;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #FEFDFA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.contenido{
+    margin: 0 25px;
+    font-size: 30px;
+    background-color: #F8F5F5;
+    text-align: center;
+
+}
+
+
+#Definicion{
+    text-align: center;
+    padding: 5px 35px;
+}
+#operadores{
+    text-align: center;
+    padding: 5px 35px;
+}
+.cont{
+    margin: 0 25px;
+    font-size: 30px;
+    background-color: #F8F5F5;
+    text-align: center;
+}
+svg{
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+img{
+    text-align: center;
+}
